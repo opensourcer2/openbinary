@@ -1,3 +1,6 @@
+language: go
+  go: 1.11.x
+
 before_deploy:
   # Set up git user name and tag this commit
   - git config --local user.name "YOUR GIT USER NAME"
