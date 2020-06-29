@@ -15,7 +15,7 @@ before_deploy:
   
 deploy:
   provider: releases
-  api_key: 6c380a780bbb14a4788e3b72bac57c45c58dd77a
+  api_key: '$GITHUB_API_KEY'
   file_glob: true
   file: directory/*
   skip_cleanup: true
