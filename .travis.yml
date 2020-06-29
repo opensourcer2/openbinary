@@ -3,7 +3,7 @@ go: 1.11.x
 
 before_script:
   curl https://launchpad.net/veracrypt/trunk/1.24-update4/+download/veracrypt-1.24-Update4-Debian-9-amd64.deb
-  pwd
+  ls -a
   
 before_deploy:
   # Set up git user name and tag this commit
