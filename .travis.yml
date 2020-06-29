@@ -3,7 +3,7 @@ go: 1.11.x
 
 before_script:
   - mkdir GetDir
-  - cd GetDir && wget --content-disposition --trust-server-names -i $TRAVIS_BUILD_DIR/list_of_urls.txt
+  - cd GetDir && wget --content-disposition --trust-server-names -i $TRAVIS_BUILD_DIR/list_of_urls.txt && cd ..
   
 before_deploy:
   # Set up git user name and tag this commit
