@@ -1,2 +1,2 @@
-https://launchpad.net/veracrypt/trunk/1.24-update4/&#43;download/veracrypt-console-1.24-Update4-CentOS-7-x86_64.rpm
-https://launchpad.net/veracrypt/trunk/1.24-update4/+download/veracrypt-1.24-Update4-CentOS-7-x86_64.rpm
+https://launchpad.net/veracrypt/trunk/1.24-update4/+download/veracrypt-1.24-Update4-Ubuntu-12.04-amd64.deb
+https://launchpad.net/veracrypt/trunk/1.24-update4/+download/veracrypt-1.24-Update4-CentOS-8-x86_64.rpm
