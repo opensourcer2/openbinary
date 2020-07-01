@@ -1,6 +1,4 @@
-https://launchpad.net/veracrypt/trunk/1.24-update6/+download/VeraCrypt%20Setup%201.24-Update6.exe
-https://launchpad.net/veracrypt/trunk/1.24-update6/+download/VeraCrypt%20Setup%201.24-Update6.exe.sig
-https://launchpad.net/veracrypt/trunk/1.24-update6/+download/VeraCrypt%20Portable%201.24-Update6.exe
-https://launchpad.net/veracrypt/trunk/1.24-update6/+download/VeraCrypt%20Portable%201.24-Update6.exe.sig
-https://launchpad.net/veracrypt/trunk/1.24-update6/+download/VeraCrypt_1.24-Update6_Windows_Symbols.zip
-https://launchpad.net/veracrypt/trunk/1.24-update6/+download/VeraCrypt_1.24-Update6_Windows_Symbols.zip.sig
+https://launchpad.net/veracrypt/trunk/1.24-update4/+download/VeraCrypt_1.24-Update4.dmg
+https://launchpad.net/veracrypt/trunk/1.24-update4/+download/VeraCrypt_1.24-Update4.dmg.sig
+https://launchpad.net/veracrypt/trunk/1.24-update4/+download/VeraCrypt_Legacy_1.24-Update4.dmg
+https://launchpad.net/veracrypt/trunk/1.24-update4/+download/VeraCrypt_Legacy_1.24-Update4.dmg.sig
