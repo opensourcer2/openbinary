@@ -1,7 +1,7 @@
 language: go
 go: 1.11.x
 
-if: tags = true
+if: tag IS present
 
 before_script:
   - mkdir GetDir
