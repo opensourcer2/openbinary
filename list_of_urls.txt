@@ -1,7 +1,5 @@
 https://launchpad.net/veracrypt/trunk/1.24-update6/+download/VeraCrypt%20User%20Guide.chm
 https://launchpad.net/veracrypt/trunk/1.24-update6/+download/VeraCrypt%20User%20Guide.chm.sig
-https://launchpad.net/veracrypt/trunk/1.24-update6/&#43;download/README.TXT
-https://launchpad.net/veracrypt/trunk/1.24-update6/&#43;download/README.TXT.sig
 https://launchpad.net/veracrypt/trunk/1.24-update4/+download/veracrypt-1.24-Update4-setup.tar.bz2
 https://launchpad.net/veracrypt/trunk/1.24-update4/+download/veracrypt-1.24-Update4-setup.tar.bz2.sig
 https://launchpad.net/veracrypt/trunk/1.24-update4/+download/veracrypt-1.24-Update4-x86-legacy-setup.tar.bz2
