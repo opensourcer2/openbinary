@@ -17,5 +17,3 @@ deploy:
   file: GetDir/*
   skip_cleanup: true
   overwrite: false
-  on:
-    branch: existing
