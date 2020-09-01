@@ -13,5 +13,6 @@ deploy:
   file_glob: true
   file: GetDir/*
   skip_cleanup: true
+  overwrite: false
   on:
     tags: true
