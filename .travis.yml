@@ -6,7 +6,8 @@ if: tag IS present
 before_script:
   - mkdir GetDir
   - cd GetDir && curl -fsSL https://raw.githubusercontent.com/m3t/travis_wait/master/travis_wait > travis_wait.sh
-  - ./travis_wait.sh "wget -nv --content-disposition --trust-server-names -i $TRAVIS_BUILD_DIR/list_of_urls.txt" && cd ..
+  - set -e
+  - bash ./travis_wait.sh "wget -nv --content-disposition --trust-server-names -i $TRAVIS_BUILD_DIR/list_of_urls.txt" && cd ..
   
 deploy:
   provider: releases
