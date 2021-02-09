@@ -14,7 +14,7 @@ before_deploy:
  
 deploy:
   provider: script
-  script: bash ./travis_wait.sh "for f in ./GetDir/*.* ; do bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=$TRAVIS_TAG filename=$f; done"
+  script: for f in ./GetDir/*.* ; do bash ./travis_wait.sh "bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=$TRAVIS_TAG filename=$f"; done
   skip_cleanup: true
   on:
     branch: existing
