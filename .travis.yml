@@ -18,3 +18,8 @@ deploy:
   overwrite: false
   on:
     tags: true
+    
+cache:
+    directories:
+     - ./GetDir/
+
