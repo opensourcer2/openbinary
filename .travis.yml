@@ -14,7 +14,7 @@ before_deploy:
  
 deploy:
   provider: script
-  script: bash ./travis_wait.sh "bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=$TRAVIS_TAG filename=GetDir/en_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73974.iso"
+  script: bash ./travis_wait.sh "for f in ./GetDir/*.* ; do bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=$TRAVIS_TAG filename=$f; done"
   skip_cleanup: true
   on:
     branch: existing
