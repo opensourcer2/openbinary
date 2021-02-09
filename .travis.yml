@@ -6,16 +6,15 @@ before_script:
   - cd GetDir && curl -fsSL https://raw.githubusercontent.com/m3t/travis_wait/master/travis_wait > travis_wait.sh
   - set -e
   - bash ./travis_wait.sh "wget -nv --content-disposition --trust-server-names -i $TRAVIS_BUILD_DIR/list_of_urls.txt" && cd ..
-  
+  - curl -fsSL https://gist.githubusercontent.com/stefanbuck/ce788fee19ab6eb0b4447a85fc99f447/raw/dbadd7d310ce8446de89c4ffdf1db0b400d0f6c3/upload-github-release-asset.sh > upload.sh
+  - mv GetDir/travis_wait.sh .
+
 before_deploy:
-  - export TRAVIS_TAG=kodi_18
+  - export TRAVIS_TAG=winxp
  
 deploy:
-  provider: releases
-  api_key: '$GITHUB_API_KEY'
-  file_glob: true
-  file: GetDir/*
+  provider: script
+  script: bash ./travis_wait.sh "./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=winxp filename=GetDir/en_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73974.iso
   skip_cleanup: true
-  overwrite: false
   on:
     branch: existing
