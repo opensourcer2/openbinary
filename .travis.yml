@@ -7,7 +7,7 @@ before_script:
   - mkdir -p GetDir
   - cd GetDir && curl -fsSL https://raw.githubusercontent.com/m3t/travis_wait/master/travis_wait > travis_wait.sh
   - set -e
-  - bash ./travis_wait.sh "wget -nv --content-disposition --trust-server-names -i $TRAVIS_BUILD_DIR/list_of_urls.txt" && cd ..
+  - bash ./travis_wait.sh "wget -nv -nc --content-disposition --trust-server-names -i $TRAVIS_BUILD_DIR/list_of_urls.txt" && cd ..
   
 deploy:
   provider: releases
