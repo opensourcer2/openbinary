@@ -1,8 +1,6 @@
 language: go
 go: 1.11.x
 
-if: tag IS present
-
 before_script:
   - mkdir -p GetDir
   - cd GetDir && curl -fsSL https://raw.githubusercontent.com/m3t/travis_wait/master/travis_wait > travis_wait.sh
@@ -11,13 +9,15 @@ before_script:
   - curl -fsSL https://gist.githubusercontent.com/stefanbuck/ce788fee19ab6eb0b4447a85fc99f447/raw/dbadd7d310ce8446de89c4ffdf1db0b400d0f6c3/upload-github-release-asset.sh > upload.sh
   - mv GetDir/travis_wait.sh .
   
+branches:
+  except:
+    - master
+    
 deploy:
   provider: script
     script: for f in ./GetDir/*.* ; do bash ./travis_wait.sh "bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=$TRAVIS_TAG filename=$f"; done
     skip_cleanup: true
-    on:
-      tags: true
-    
+
 cache:
     directories:
      - ./GetDir/
