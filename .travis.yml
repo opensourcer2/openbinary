@@ -12,14 +12,14 @@ before_script:
   
 branches:
   except:
-    - master
-    
+  - master
+  
 deploy:
   provider: script
-    script: for f in ./GetDir/*.* ; do bash ./travis_wait.sh "bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=$TRAVIS_TAG filename=$f"; done
-    skip_cleanup: true
-
+  script: for f in ./GetDir/*.* ; do bash ./travis_wait.sh "bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=$TRAVIS_TAG filename=$f"; done
+  skip_cleanup: true
+  
 cache:
-    directories:
-     - ./GetDir/
+  directories:
+   - ./GetDir/
 
