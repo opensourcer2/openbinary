@@ -18,8 +18,7 @@ deploy:
   provider: script
   script: for f in ./GetDir/*.* ; do bash ./travis_wait.sh "bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=$TRAVIS_BRANCH filename=$f"; done
   skip_cleanup: true
-  on:
-    branch: all
+  all_branches: true
   
 cache:
   directories:
