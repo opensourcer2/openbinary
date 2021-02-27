@@ -6,7 +6,7 @@ before_script:
   - mkdir -p GetDir
   - cd GetDir && curl -fsSL https://raw.githubusercontent.com/m3t/travis_wait/master/travis_wait > travis_wait.sh
   - set -e
-  - wget -nv -nc https://downloadcenter.intel.com/downloads/eula/23295/Intel-Rapid-Storage-Technology-AHCI-for-Windows-XP-for-Intel-NUC?httpDown=https%3A%2F%2Fdownloadmirror.intel.com%2F23295%2Feng/STOR_Win7_XP_11.2.0.1006.exe -O STOR_Win7_XP_11.2.0.1006.exe && cd ..
+  - wget -nv -nc https://downloadmirror.intel.com/23295/eng/STOR_Win7_XP_11.2.0.1006.exe && cd ..
   - curl -fsSL https://gist.githubusercontent.com/stefanbuck/ce788fee19ab6eb0b4447a85fc99f447/raw/dbadd7d310ce8446de89c4ffdf1db0b400d0f6c3/upload-github-release-asset.sh > upload.sh
   - mv GetDir/travis_wait.sh .
   - ls GetDir
