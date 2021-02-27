@@ -1,10 +1,10 @@
-https://downloadcenter.intel.com/downloads/eula/23295/Intel-Rapid-Storage-Technology-AHCI-for-Windows-XP-for-Intel-NUC?httpDown=https%3A%2F%2Fdownloadmirror.intel.com%2F23295%2Feng/STOR_Win7_XP_11.2.0.1006.exe
-https://downloadcenter.intel.com/downloads/eula/23295/Intel-Rapid-Storage-Technology-AHCI-for-Windows-XP-for-Intel-NUC?httpDown=https%3A%2F%2Fdownloadmirror.intel.com%2F23295%2Feng/f6flpy-x86_11.2.0.1006.zip
-https://downloadcenter.intel.com/downloads/eula/23295/Intel-Rapid-Storage-Technology-AHCI-for-Windows-XP-for-Intel-NUC?httpDown=https%3A%2F%2Fdownloadmirror.intel.com%2F23295%2Feng/f6flpy-x64_11.2.0.1006.zip
+https://downloadmirror.intel.com/23295/eng/STOR_Win7_XP_11.2.0.1006.exe
+https://downloadmirror.intel.com/23295/eng/f6flpy-x86_11.2.0.1006.zip
+https://downloadmirror.intel.com/23295/eng/f6flpy-x64_11.2.0.1006.zip
 https://downloadmirror.intel.com/23295/eng/STOR_11.2_readme.txt
 https://downloadmirror.intel.com/23295/eng/STOR_11.2_release_notes.htm
-https://downloadcenter.intel.com/downloads/eula/23538/Intel-Rapid-Storage-Technology-AHCI-for-Windows-7-8-8-1-for-Intel-NUC?httpDown=https%3A%2F%2Fdownloadmirror.intel.com%2F23538%2Feng/STOR_Win7_8_8.1_12.9.0.1001.exe
-https://downloadcenter.intel.com/downloads/eula/23538/Intel-Rapid-Storage-Technology-AHCI-for-Windows-7-8-8-1-for-Intel-NUC?httpDown=https%3A%2F%2Fdownloadmirror.intel.com%2F23538%2Feng/STOR_Win7_8_8.1_12.9.0.1001-f6flpy-x86.zip
-https://downloadcenter.intel.com/downloads/eula/23538/Intel-Rapid-Storage-Technology-AHCI-for-Windows-7-8-8-1-for-Intel-NUC?httpDown=https%3A%2F%2Fdownloadmirror.intel.com%2F23538%2Feng/STOR_Win7_8_8.1_12.9.0.1001-f6flpy-x64.zip
+https://downloadmirror.intel.com/23295/eng/STOR_Win7_8_8.1_12.9.0.1001.exe
+https://downloadmirror.intel.com/23295/eng/STOR_Win7_8_8.1_12.9.0.1001-f6flpy-x86.zip
+https://downloadmirror.intel.com/23295/eng/STOR_Win7_8_8.1_12.9.0.1001-f6flpy-x64.zip
 https://downloadmirror.intel.com/23538/eng/STOR_12.9.0.1001_readme.txt
 https://downloadmirror.intel.com/23538/eng/STOR_12.9.0.1001_ReleaseNotes.htm
