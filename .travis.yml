@@ -9,7 +9,8 @@ before_script:
   - wget -nv -nc https://downloadmirror.intel.com/23295/eng/STOR_Win7_XP_11.2.0.1006.exe && cd ..
   - curl -fsSL https://gist.githubusercontent.com/stefanbuck/ce788fee19ab6eb0b4447a85fc99f447/raw/dbadd7d310ce8446de89c4ffdf1db0b400d0f6c3/upload-github-release-asset.sh > upload.sh
   - mv GetDir/travis_wait.sh .
-  - ls GetDir
+  - ls -la GetDir
+  - ls -la
   
 branches:
   except:
