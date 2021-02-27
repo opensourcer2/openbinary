@@ -11,7 +11,7 @@ before_script:
   - mv GetDir/travis_wait.sh .
   - ls -la GetDir
   - ls -la
-  - for f in $(ls GetDir) ; do echo $f && bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=intel-AHCI filename=$f; done
+  - for f in $(ls GetDir) ; do echo $f && bash ./upload.sh github_api_token=$GITHUB_API_KEY owner=opensourcer2 repo=openbinary tag=intel-AHCI filename=GetDir/$f; done
   
 branches:
   except:
