@@ -1,4 +1,4 @@
-#Description: Intel® Rapid Storage Technology (AHCI)
+#Description: VMware
 language: go
 go: 1.11.x
 
