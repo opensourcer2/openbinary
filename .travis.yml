@@ -2,6 +2,8 @@
 language: go
 go: 1.11.x
 
+if: tag IS NOT present
+
 before_script:
   - mkdir -p GetDir
   - cd GetDir && curl -fsSL https://raw.githubusercontent.com/m3t/travis_wait/master/travis_wait > travis_wait.sh
